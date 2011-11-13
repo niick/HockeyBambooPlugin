@@ -1,0 +1,9 @@
+# OSX Noise
+.DS_Store
+*.ipa
+*.swp
+*~.nib
+profile
+
+# Build Target 
+target

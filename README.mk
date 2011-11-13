@@ -1,0 +1,1 @@
+Plugin for Atlassian Bamboo to upload builds to HockeyApp.

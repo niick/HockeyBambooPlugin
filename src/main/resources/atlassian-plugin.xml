@@ -1,0 +1,17 @@
+<atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}" />
+    </plugin-info>
+
+    <resource type="i18n" name="hockey language" location="english"/>
+
+    <taskType name="HockeyApp" class="net.hockeyapp.bamboo.UploadTask" key="Upload">
+      <description>Task for uploading builds to HockeyApp</description>
+      <category name="deployment"/>
+      <configuration class="net.hockeyapp.bamboo.UploadTaskConfigurator"/>
+      <resource type="freemarker" name="edit" location="editUploadTask.ftl"/>
+      <resource type="freemarker" name="view" location="viewUploadTask.ftl"/>
+    </taskType>
+</atlassian-plugin>
