@@ -7,7 +7,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.hockeyapp.bamboo.plugins</groupId>
     <artifactId>uploadtask</artifactId>
-    <version>1.0a3</version>
+    <version>1.0a4</version>
 
     <organization>
         <name>Codenauts UG</name>
